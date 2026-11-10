@@ -1,0 +1,127 @@
+# Environment & Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# IDE & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.sublime-project
+.sublime-workspace
+*.code-workspace
+
+# Streamlit
+.streamlit/
+.streamlit/config.toml
+.streamlit/secrets.toml
+streamlit_notebooks/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Data files (sensitive PO/vendor data)
+data/*.csv
+data/*.xlsx
+data/*.xls
+data/*.json
+!data/sample_data.csv
+!data/README.md
+
+# Cached/temporary files
+*.cache
+*.cached
+.pytest_cache/
+.coverage
+htmlcov/
+*.tmp
+
+# Local configuration
+settings.local.json
+settings.prod.json
+config.local.py
+
+# OS-specific
+.DS_Store
+Thumbs.db
+*.bak
+*.log
+
+# Large vendor categorization backups (keep current version)
+*_backup.xlsx
+*_old.xlsx
+*_archive.xlsx
+
+# Excel temp files
+~$*.xlsx
+~$*.xls
+.~lock.*.#
+
+# Node modules (if using frontend tooling)
+node_modules/
+npm-debug.log
+
+# Database
+*.sqlite
+*.sqlite3
+*.db
+
+# Dependencies lock files (optional — uncomment if shared)
+# Pipfile.lock
+# poetry.lock
+
+# Testing
+.tox/
+.nox/
+.hypothesis/
+
+# Distribution
+*.tar.gz
+*.zip
+
+# Misc
+.env.example  # Keep as template
+!.gitignore   # Always track gitignore itself
+
+# OS / editor
+desktop.ini
+Thumbs.db
+.DS_Store
+.claude/
+
+# Never commit real company exports
+*.real.xlsx
+private_data/
