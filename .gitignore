@@ -56,6 +56,7 @@ streamlit_notebooks/
 # Data files (sensitive PO/vendor data)
 data/*.csv
 data/*.xlsx
+!data/vendor_categorization_sample.xlsx
 data/*.xls
 data/*.json
 !data/sample_data.csv
