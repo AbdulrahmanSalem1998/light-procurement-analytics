@@ -64,8 +64,8 @@ Payment terms are also normalised (`"Due 30 Days"`, `"30 days after invoice date
 ## Quick start
 
 ```bash
-git clone https://github.com/AbdulrahmanSalem1998/<this-repo>.git
-cd <this-repo>
+git clone https://github.com/AbdulrahmanSalem1998/light-procurement-analytics.git
+cd light-procurement-analytics
 python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 streamlit run app.py
